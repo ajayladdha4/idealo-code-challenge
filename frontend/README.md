@@ -8,7 +8,7 @@
     1. Board - Class Component
     2. Sqaure, Game - Functional Component
 7. Each component has its own readme, test js files.
-8. Only Board has extended testcases, rest other are default generated or even commented (As per time given for total development)
+8. Only Board has extended testcases which includes mount, render testscenario, rest other are default generated or even commented (As per time given for total development)
 9. Used proxy to call server (Check package.json)
 
 ## Available Scripts
