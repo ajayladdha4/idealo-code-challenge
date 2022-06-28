@@ -1,8 +1,8 @@
 # idealo-code-challenge
 Simple environment for a robot where user can control it using this predefined script
 
-- Readme of [backend](backend/README.md).
-- Readme of [frontend](frontend/README.md).
+- Readme of [backend](backend).
+- Readme of [frontend](frontend).
 
 ## Approach - 
 As per requirements a frontend application & backend application were needed and whole task was needs to be completed in 5-6 Hrs
