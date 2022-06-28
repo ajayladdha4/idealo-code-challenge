@@ -39,6 +39,7 @@ packages/react-devtools-timeline/dist
 
 # Compiled class file
 *.class
+/backend/target/
 
 # Log file
 *.log

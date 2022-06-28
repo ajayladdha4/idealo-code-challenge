@@ -23,9 +23,9 @@ describe('Board', () => {
       x: 1,
       y: 1
     },
-    user:{
+    robot:{
       id: "qwerty-trewq-1234",
-      name: "Ajay",
+      name: "Ajay's Robot",
     },
     maxX:5,
     maxY:5
@@ -58,7 +58,7 @@ describe('Board', () => {
   test('Board render with default props',()=>{
     const [board] = renderTestComponent();
     expect(board.children.length).toBe(7);
-    expect(board.children[0].children[0].data).toBe("Player: Ajay");
+    expect(board.children[0].children[0].data).toBe("Player: Ajay's Robot");
     expect(board.children[1].children[0].attribs.class).toBe("east square");
   })
 
