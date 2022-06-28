@@ -14,6 +14,8 @@ For building and running the application you need:
     
 ## Implementation
 - Followed Package standard to keep all the layers but at high level these classes are created
+    - API End Point
+        - robots/{robot-id}/commands 
     - main
         - RobotController
         - RobotService
