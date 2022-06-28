@@ -24,7 +24,7 @@ public class RobotController {
 	
 	private final RobotService robotService;
 	
-    @PostMapping(value = "{robotId}", consumes = "text/plain")
+    @PostMapping(value = "{robotId}/commands", consumes = "text/plain")
     public ResponseEntity<RobotPosition> executeMovementScript(@RequestBody @NotNull @NotBlank String payload, @PathVariable("robotId") String robotId) {
         return ResponseEntity.ok(robotService.executeMovementScript(robotId, payload));
     }

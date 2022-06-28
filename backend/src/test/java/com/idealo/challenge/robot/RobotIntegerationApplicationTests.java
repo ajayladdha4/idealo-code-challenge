@@ -37,7 +37,7 @@ public class RobotIntegerationApplicationTests {
 	@Test
 	void test_e2e() throws Exception {
 		MvcResult match_result = mockMvc
-				.perform(post("/robots/"+robotId).contentType(MediaType.TEXT_PLAIN_VALUE).content(input))
+				.perform(post("/robots/"+robotId+"/commands").contentType(MediaType.TEXT_PLAIN_VALUE).content(input))
 //            .andDo(print())
 				.andExpect(status().isOk()).andReturn(); // jsonPath("$.customerId").value("1")
 
