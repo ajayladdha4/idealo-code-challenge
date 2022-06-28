@@ -29,6 +29,12 @@ As per requirements a frontend application & backend application were needed and
 4. I was able to right Unit Testcases for Movement logic, written integration testcase using Spring Test Runner
 5. Used Swagger which created documentation automatically
 
+- Initial Position
+![initial](files/1.png "Optional title")
+
+- After script execution
+![initial](files/2.png "Optional title")
+
 ### What could I improve if i had more time:
 1. The styling in frontend could be more better and managed way (Could use SCSS)
 2. Exception Handling on Frontend could be used for better experience 
