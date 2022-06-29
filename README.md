@@ -45,3 +45,4 @@ As per requirements a frontend application & backend application were needed and
 7. Configuration could be more generic
 8. As of now build process in different for frontend and backend which could be improved with less steps (With one command both should be started)
 9. package JSON could be improved(Could remove unnecessary packages)
+10. Persistent layer could be improved/Entity attribute could be more precise 
