@@ -11,6 +11,10 @@
 8. Only Board has extended testcases which includes mount, render testscenario, rest other are default generated or even commented (As per time given for total development)
 9. Used proxy to call server (Check package.json)
 
+## Install Dependencies
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
