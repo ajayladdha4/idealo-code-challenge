@@ -9,13 +9,11 @@
 ## Prerequisite
 For building and running the application you need:
 
-- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [JDK 11](http://www.oracle.com/technetwork/java/javase/downloads/)
 - [Maven 3](https://maven.apache.org)
     
 ## Implementation
 - Followed Package standard to keep all the layers but at high level these classes are created
-    - API End Point
-        - robots/{robot-id}/commands 
     - main
         - RobotController
         - RobotService
@@ -28,6 +26,8 @@ For building and running the application you need:
     - test
         - RobotIntegrationTest
         - RobotUnitTest
+    - API End Point (Kept Robot as resource and commands is to apply mpve command on robot)
+        - robots/{robot-id}/commands 
 2. Used H2 InMemory Database for POC
 3. Follow entity driven design, so Robot Entity has method movePosition, which has business logic of data movement.
 
