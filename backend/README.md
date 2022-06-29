@@ -40,6 +40,8 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 mvn spring-boot:run
 ```
 
+Note: Run code on JDK rather than JRE, else you will error in application run.
+
 To run the testcases use:
 ```shell
 mvn clean test
