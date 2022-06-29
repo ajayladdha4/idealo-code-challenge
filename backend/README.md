@@ -3,7 +3,7 @@
 [Spring Boot](http://projects.spring.io/spring-boot/) server.
 
 ## Requirements
-1. An end point is created for resource robot on server
+1. An end point for robot to move the position by command script on server
 2. Implement Business Logic to move position
 
 ## Prerequisite
