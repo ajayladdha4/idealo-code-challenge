@@ -40,8 +40,8 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 mvn spring-boot:run
 ```
 
-Note: Run code on JDK rather than JRE, else you will error in application run.
-This will run application on 8080, if you update port then you will have to update package.json in node also as frontend api request is route to backend.
+- Note: Run code on JDK rather than JRE, else you will error in application run.
+- This will run application on 8080, if you update port then you will have to update package.json in node also as frontend api request is route to backend.
 
 To run the testcases use:
 ```shell
