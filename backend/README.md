@@ -26,7 +26,7 @@ For building and running the application you need:
     - test
         - RobotIntegrationTest
         - RobotUnitTest
-    - API End Point (Kept Robot as resource and commands is to apply mpve command on robot)
+    - API End Point (Kept Robot as resource and commands is to apply mpve command on robot) - (Tried to follow standard - https://restfulapi.net/resource-naming/)
         - robots/{robot-id}/commands 
 2. Used H2 InMemory Database for POC
 3. Follow entity driven design, so Robot Entity has method movePosition, which has business logic of data movement.
