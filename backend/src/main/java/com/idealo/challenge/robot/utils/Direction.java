@@ -4,6 +4,12 @@ import java.util.Map;
 
 import com.google.common.collect.ImmutableMap;
 
+/**
+ * Enum for direction and their unit methods is in this class
+ * 
+ * @author ajayladdha
+ *
+ */
 public enum Direction {
 
 	NORTH, SOUTH, EAST, WEST;
